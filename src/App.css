@@ -5,6 +5,10 @@
   --white: #e0e1dd;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: var(--darker-color);
 }

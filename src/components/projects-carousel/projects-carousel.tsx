@@ -61,7 +61,8 @@ export const ProjectCarousel = () => {
         })}
         </S.CarouselMarquee>
       </S.CarouselContainer>
-      <S.CarouselContainer>
+
+      <S.CarouselContainer className='second-carousel'>
       <S.CarouselMarquee className='marquee-left'>
         {reversalProjects.map((item, index) => {
           return (

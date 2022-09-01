@@ -18,6 +18,10 @@ export const CarouselContainer = styled.div`
   transform: rotate(-6deg);
   overflow: hidden;
 
+  &.second-carousel{
+    margin-top: 16px;
+  }
+
   .marquee-right{
     animation: marquee-right 20s linear infinite;
 
