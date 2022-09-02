@@ -20,3 +20,7 @@ body{
 .lightBlack{
   color: var(--light-black);
 }
+
+.white{
+  color: var(--white);
+}

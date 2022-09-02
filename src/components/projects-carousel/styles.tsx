@@ -7,12 +7,12 @@ export const CarouselWrapper = styled.div`
   overflow-y: visible;
   overflow-x: clip;
   /* padding-top: 92px; */
-  padding-bottom: 92px;
+  padding-bottom: 250px;
 `
 
 export const CarouselContainer = styled.div`
   width: 120%;
-  margin-left: -10%;
+  margin-left: -250px;
   height: 400px;
   /* background-color: #fff; */
   transform: rotate(-6deg);
@@ -32,10 +32,10 @@ export const CarouselContainer = styled.div`
 
   @keyframes marquee-right {
     0%{
-      transform: translateX(-6%);
+      transform: translateX(-80px);
     }
     100%{
-      transform: translateX(-81.7%);
+      transform: translateX(-1810px);
     }
   }
 
@@ -49,10 +49,10 @@ export const CarouselContainer = styled.div`
 
   @keyframes marquee-left {
     0%{
-      transform: translateX(-81.7%);
+      transform: translateX(-1810px);
     }
     100%{
-      transform: translateX(-6%);
+      transform: translateX(-80px);
     }
   }
 `
