@@ -15,7 +15,7 @@ export const CarouselContainer = styled.div`
   margin-left: -250px;
   height: 400px;
   /* background-color: #fff; */
-  transform: rotate(-6deg);
+  transform: rotate(-4deg);
   overflow: hidden;
 
   &.second-carousel{
@@ -23,7 +23,7 @@ export const CarouselContainer = styled.div`
   }
 
   .marquee-right{
-    animation: marquee-right 20s linear infinite;
+    animation: marquee-right 60s linear infinite;
 
     &:hover {
       animation-play-state: paused;
@@ -40,7 +40,7 @@ export const CarouselContainer = styled.div`
   }
 
   .marquee-left{
-    animation: marquee-left 20s linear infinite;
+    animation: marquee-left 60s linear infinite;
 
     &:hover {
       animation-play-state: paused;
@@ -64,9 +64,9 @@ export const CarouselMarquee = styled.div`
   gap: 16px;
 `
 
-export const ProjectCard = styled.div`
+export const CardWrapper = styled.div`
   min-width: 330px;
   height: 100%;
-  background-color: #101010;
+  background-color: #d7d7d7;
   
 `

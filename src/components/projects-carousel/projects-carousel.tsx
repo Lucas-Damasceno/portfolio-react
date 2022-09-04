@@ -1,7 +1,8 @@
-import react from 'react'
+import react, { CSSProperties } from 'react'
+import { ProjectCard } from './project-card/project-card';
 import * as S from './styles'
 
-interface Project {
+export interface Project {
   name: string;
   title: string;
   info: string;
@@ -17,31 +18,31 @@ interface Project {
 export const ProjectCarousel = () => {
   const projects: Project[] = [
     {
-      name: 'NUMERO 0',
-      title: 'string',
+      name: 'Webmail UOL',
+      title: 'Webmail UOL',
       info: 'string',
-      mainImage: 'string',
+      mainImage: 'webmail_uol/webmail_uol.png',
     },
     {
-      name: 'NUMERO 1',
-      title: 'string',
+      name: 'Scan Nestlé',
+      title: 'Scan Nestlé',
       info: 'string',
-      mainImage: 'string',
+      mainImage: 'nestle/nestle.jpg',
     }, {
-      name: 'NUMERO 2',
-      title: 'string',
+      name: 'Lista Hotéis',
+      title: 'Lista Hotéis',
       info: 'string',
-      mainImage: 'string',
+      mainImage: 'hotel_list/hotel_list.jpg',
     }, {
-      name: 'NUMERO 3',
+      name: 'Kontrol_viagens',
       title: 'string',
       info: 'string',
-      mainImage: 'string',
+      mainImage: 'kontrol_viagens/kontrol_viagens.jpg',
     }, {
-      name: 'NUMERO 4',
+      name: 'Cidadelas',
       title: 'string',
       info: 'string',
-      mainImage: 'string',
+      mainImage: 'cidadelas/cidadelas.jpg',
     },
   ]
   const projectsSlideShow = [...projects, ...projects, ...projects];
@@ -54,9 +55,9 @@ export const ProjectCarousel = () => {
         <S.CarouselMarquee className='marquee-right'>
         {projectsSlideShow.map((item, index) => {
           return (
-            <S.ProjectCard key={index}>
-              <h1 className='primaryColor'>{item.name}</h1>
-            </S.ProjectCard>
+            <S.CardWrapper key={index}>
+              <ProjectCard data={item}/>
+            </S.CardWrapper>
           )
         })}
         </S.CarouselMarquee>
@@ -66,9 +67,9 @@ export const ProjectCarousel = () => {
       <S.CarouselMarquee className='marquee-left'>
         {reversalProjects.map((item, index) => {
           return (
-            <S.ProjectCard key={index}>
-              <h1 className='primaryColor'>{item.name}</h1>
-            </S.ProjectCard>
+            <S.CardWrapper key={index}>
+              <ProjectCard data={item}/>
+            </S.CardWrapper>
           )
         })}
         </S.CarouselMarquee>

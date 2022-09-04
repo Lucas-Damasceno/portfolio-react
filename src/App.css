@@ -10,7 +10,11 @@ html{
 }
 
 body{
-  background-color: var(--darker-color);
+  /* background-color: var(--darker-color); */
+}
+
+h1{
+  margin: 0;
 }
 
 .primaryColor{
