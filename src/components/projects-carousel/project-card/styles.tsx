@@ -21,6 +21,7 @@ export const ProjectCardWrapper = styled.div<CardWrapperProps>`
     justify-content: center;
     opacity: 0;
     transition: 0.2s ease-in-out;
+    cursor: pointer;
   }
 
   .card-content:hover{

@@ -35,12 +35,12 @@ export const ProjectCarousel = () => {
       mainImage: 'hotel_list/hotel_list.jpg',
     }, {
       name: 'Kontrol_viagens',
-      title: 'string',
+      title: 'Kontrol_viagens',
       info: 'string',
       mainImage: 'kontrol_viagens/kontrol_viagens.jpg',
     }, {
       name: 'Cidadelas',
-      title: 'string',
+      title: 'Cidadelas',
       info: 'string',
       mainImage: 'cidadelas/cidadelas.jpg',
     },
