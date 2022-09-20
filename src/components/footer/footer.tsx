@@ -8,7 +8,7 @@ export const Footer = () => {
 
       </div>
       <S.Rights className='white'>
-        Lucas Damasceno 2022
+        MOTU Br 2022
       </S.Rights>
     </S.FooterContainer>
   )

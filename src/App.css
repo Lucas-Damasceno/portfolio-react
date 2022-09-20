@@ -10,7 +10,8 @@ html{
 }
 
 body{
-  /* background-color: var(--darker-color); */
+  /* background-color: #242424; */
+  background-color: #e7e7e7;
 }
 
 h1{

@@ -7,9 +7,11 @@ export const MenuComponent = () => {
     <S.Header>
       <S.Ul>
         <li>Home</li>
-        <li>Projetos</li>
-        <li>Blog</li>
+        <li>Waves</li>
+        <li>Actions Figures</li>
+        <li>Grupos</li>
         <li>Sobre</li>
+      <button>Login</button> 
       </S.Ul>
     </S.Header>
   )

@@ -11,12 +11,9 @@ export const WelcomeComponent = () => {
 
   return (
     <S.WelcomeWrapper>
-      <svg viewBox="0 0 60 60">
-          <polygon fill="#232323" points="30,10 0,60 60,60"></polygon>
-      </svg>
       <div className='info-container'>
-        <h2>Lucas Damasceno</h2>
-        <h1 className='primaryColor'>Front End Developer</h1>
+        <h1 className='primaryColor'>MOTU BR</h1>
+        <h2>Wave 9 Lançada!</h2>
       </div>
 
       <div className='arrow-down' onClick={arrowClick}>

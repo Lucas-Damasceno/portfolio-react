@@ -5,13 +5,16 @@ import { MenuComponent } from './components/menu/menu';
 import { WelcomeComponent } from './components/welcome/welcome';
 import { ProjectCarousel } from './components/projects-carousel/projects-carousel';
 import { Footer } from './components/footer/footer';
+import { FigurePage } from './components/figure-page/figure-page';
 
 function App() {
   return (
     <div className="App">
       <MenuComponent/>
-      <WelcomeComponent />
-      <ProjectCarousel />
+      {/* <WelcomeComponent />
+      <ProjectCarousel /> */}
+
+      <FigurePage></FigurePage>
       <Footer></Footer>
     </div>
   );

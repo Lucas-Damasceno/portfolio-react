@@ -7,13 +7,13 @@ interface CardWrapperProps {
 export const ProjectCardWrapper = styled.div<CardWrapperProps>`
   width: 100%;
   height: 100%;
-  background-image: url("./projetos/${props => props.image}");
+  background-image: url("./waves/${props => props.image}");
   background-size: cover;
   width: 100%;
   height: 100%;
 
   .card-content{
-    background-color: #ffffffcd;
+    background-color: #6b6b6bcd;
     width: 100%;
     height: 100%;
     display: flex;

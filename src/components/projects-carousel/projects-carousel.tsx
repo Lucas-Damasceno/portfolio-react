@@ -18,32 +18,27 @@ export interface Project {
 export const ProjectCarousel = () => {
   const projects: Project[] = [
     {
-      name: 'Webmail UOL',
-      title: 'Webmail UOL',
+      name: 'He Man 200X',
+      title: 'He Man 200X',
       info: 'string',
-      mainImage: 'webmail_uol/webmail_uol.png',
+      mainImage: '9/he-man-200x.jpg',
     },
     {
-      name: 'Scan Nestlé',
-      title: 'Scan Nestlé',
+      name: 'Skeletor 200X',
+      title: 'Skeletor 200X',
       info: 'string',
-      mainImage: 'nestle/nestle.jpg',
+      mainImage: '9/skeletor-200x.jpg',
     }, {
-      name: 'Lista Hotéis',
-      title: 'Lista Hotéis',
+      name: 'Mantenna',
+      title: 'Mantenna',
       info: 'string',
-      mainImage: 'hotel_list/hotel_list.jpg',
+      mainImage: '9/mantenna.jpg',
     }, {
-      name: 'Kontrol_viagens',
-      title: 'Kontrol_viagens',
+      name: 'Pig Head',
+      title: 'Pig Head',
       info: 'string',
-      mainImage: 'kontrol_viagens/kontrol_viagens.jpg',
-    }, {
-      name: 'Cidadelas',
-      title: 'Cidadelas',
-      info: 'string',
-      mainImage: 'cidadelas/cidadelas.jpg',
-    },
+      mainImage: '9/pig-head.jpg',
+    }
   ]
   const projectsSlideShow = [...projects, ...projects, ...projects];
 
